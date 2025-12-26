@@ -1,0 +1,82 @@
+﻿@page "{handler?}"
+@using Common.Application.DateUtil
+@using CommentModule.Domain
+@model Tony.Web.Areas.Admin.Pages.Comments.IndexModel
+@{
+    ViewData["title"] = "comment";
+    ViewData["selected"] = "comments";
+}
+<form class="card mb-2">
+    <div class="card-header mb-0 pb-0 d-flex justify-content-between">
+        <h5>Filter</h5>
+        <div class="">
+            <a asp-page="Index" class="btn btn-sm btn-danger">delet filter</a>
+            <button type="submit" class="btn btn-success btn-sm">اdo filter</button>
+        </div>
+    </div>
+    <div class="card-body  mb-0">
+        <div class="row">
+            <div class="col-md-6">
+                <label>from</label>
+                <fieldset class="form-group position-relative has-icon-left">
+                    <input type="text" autocomplete="off" value="@Model.FilterParams.StartDate.ToPersianDate()" name="stDate" class="form-control shamsi-datepicker" placeholder="select date">
+                    <div class="form-control-position">
+                        <i class="bx bx-calendar"></i>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-6">
+                <label>to Date</label>
+                <fieldset class="form-group position-relative has-icon-left">
+                    <input type="text" autocomplete="off" value="@Model.FilterParams.EndDate.ToPersianDate()" name="enDate" class="form-control shamsi-datepicker" placeholder="select date">
+                    <div class="form-control-position">
+                        <i class="bx bx-calendar"></i>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(f => f.FilterParams.Name)
+            </div>
+            <div class="col-md-6">
+                <label>Comment type</label>
+                <select class="form-control" asp-for="FilterParams.CommentType">
+                    <option value="null">all</option>
+                    <option value="@CommentType.Article">article</option>
+                    <option value="@CommentType.Course">course</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="card ">
+    <div class="table-responsive card-body p-0 mb-0">
+        <table class="table table-bordered table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>type</th>
+                    <th>Name and Family</th>
+                    <th>Email</th>
+                    <th>Comment Text</th>
+                    <th>Register date</th>
+                    <th>operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.FilterResult.Data)
+                {
+                    <tr>
+                        <td>@(item.CommentType == CommentModule.Domain.CommentType.Course ? "course" : "article")</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Email</td>
+                        <td>@item.Text</td>
+                        <td>@item.CreationDate.ToPersianDateTime()</td>
+                        <td>
+                            <delete-item url="@Url.Page("Index","Delete",new {id=item.Id})">Delete</delete-item>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <partial name="_Pagination" model="Model.FilterResult" />
+</div>

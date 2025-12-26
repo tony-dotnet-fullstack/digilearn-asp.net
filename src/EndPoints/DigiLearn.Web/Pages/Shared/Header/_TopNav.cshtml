@@ -1,0 +1,69 @@
+﻿<div class="top-nav">
+    <img src="images/favicon.ico" class="logo" />
+    <div class="show-menu">
+        <i class="zmdi zmdi-menu"></i>
+        منوی اصلی
+    </div>
+    <ul>
+        <li>
+            <a href="#">
+                <a href="#">
+                    <i class="fa fa-home"></i>
+                    home
+                </a>
+            </a>
+        </li>
+        <li>
+            <a href="/blog">
+                <i class="fa fa-newspaper-o"></i>
+                وblog
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-phone"></i>
+                contact us
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-microphone"></i>
+                پادکست
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-users"></i>
+                teacherین
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="zmdi zmdi-headset-mic"></i>
+                پشتیبانی آنلاین
+            </a>
+        </li>
+        <li>
+            <a href="/profile/registerTeacher">
+                <i class="fa fa-handshake-o"></i>
+                coppration
+            </a>
+        </li>
+    </ul>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-page="/Profile/Index" class="auth">
+
+            <i class="zmdi zmdi-account auth-link" data-toggle="tooltip" data-placement="right"
+           title="account userی"></i>
+        </a>
+    }
+    else
+    {
+        <a asp-page="/Auth/Login" class="auth">
+
+            <i class="zmdi zmdi-sign-in auth-link" data-toggle="tooltip" data-placement="right"
+           title="Enter to site"></i>
+        </a>
+    }
+</div>

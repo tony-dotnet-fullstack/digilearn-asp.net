@@ -1,0 +1,65 @@
+﻿@page "{handler?}"
+@using CoreModule.Domain.Teacher.Enums
+@model Tony.Web.Areas.Admin.Pages.Teachers.IndexModel
+@{
+    ViewData["title"] = "teacher managment";
+    ViewData["selected"] = "teachers";
+}
+<div class="card ">
+    <div class="table-responsive card-body p-0 mb-0">
+        <table class="table table-bordered table-hover mb-0 data-table">
+            <thead>
+                <tr>
+                    <th>user name</th>
+                    <th>Name and Family</th>
+                    <th>telephone numbers</th>
+                    <th>Status</th>
+                    <th>operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Teachers)
+                {
+                    <tr>
+                        <td>@item.UserName</td>
+                        <td>@item.User.Name @item.User.Name</td>
+                        <td>@item.User.PhoneNumber</td>
+                        <td>
+                            @switch (@item.Status)
+                            {
+                                case TeacherStatus.Active:
+                                <label class="badge bg-success">Active</label>
+                                    break;
+                                case TeacherStatus.Inactive:
+                                    <label class="badge bg-danger">disableActive</label>
+
+                                    break;
+
+                                case TeacherStatus.Pending:
+                                    <label class="badge bg-primary">In process</label>
+
+                                    break;
+                            }
+                        </td>
+                        <td>
+                            @if (item.Status == TeacherStatus.Active)
+                            {
+                                <Question class="btn btn-danger" url="@Url.Page("Index", "toggleStatus", new { id = item.Id })">
+                                    disableActive 
+
+                                </Question>
+                            }
+                            else if (item.Status == TeacherStatus.Inactive)
+                            {
+                                <Question class="btn btn-success" url="@Url.Page("Index", "toggleStatus", new { id = item.Id })">
+                                    Active 
+                                </Question>
+                            }
+                            <a class="btn btn-primary" asp-page="Show" asp-route-id="@item.Id">show</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

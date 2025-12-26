@@ -1,0 +1,15 @@
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\bin\Debug\net7.0\Common.Application.deps.json
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\bin\Debug\net7.0\Common.Application.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\bin\Debug\net7.0\Common.Application.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\bin\Debug\net7.0\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\bin\Debug\net7.0\Common.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.csproj.AssemblyReference.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.AssemblyInfoInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.AssemblyInfo.cs
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.csproj.CoreCompileInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.A.58782CAF.Up2Date
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\refint\Common.Application.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\Common.Application.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Application\obj\Debug\net7.0\ref\Common.Application.dll

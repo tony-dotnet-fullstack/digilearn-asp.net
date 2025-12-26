@@ -1,0 +1,12 @@
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\bin\Debug\net6.0\Common.Query.deps.json
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\bin\Debug\net6.0\Common.Query.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\bin\Debug\net6.0\Common.Query.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.csproj.AssemblyReference.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.GeneratedMSBuildEditorConfig.editorconfig
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.AssemblyInfoInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.AssemblyInfo.cs
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.csproj.CoreCompileInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\refint\Common.Query.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\Common.Query.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Query\obj\Debug\net6.0\ref\Common.Query.dll

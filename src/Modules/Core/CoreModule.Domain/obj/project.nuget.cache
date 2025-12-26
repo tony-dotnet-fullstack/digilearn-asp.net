@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vsPEv0RA93I=",
+  "success": true,
+  "projectFilePath": "D:\\btc\\DigiLearn-master\\tony\\src\\Modules\\Core\\CoreModule.Domain\\CoreModule.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\salmank\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

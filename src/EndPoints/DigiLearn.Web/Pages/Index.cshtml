@@ -1,0 +1,809 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@section middel_header{
+    <div class="middel-header">
+        <div id="particles-js" style="position: absolute;">
+            <canvas class="particles-js-canvas-el"></canvas>
+        </div>
+        <div class="header-content">
+            <h1>
+                
+            </h1>
+            <form class="mt-5">
+                <input type="text" placeholder="" class="form-control" />
+                <i class="fa fa-search"></i>
+                <div class="search-result">
+                </div>
+            </form>
+        </div>
+    </div>
+}
+<div class="body  pt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <br class="col-12" />
+            <div class="col-12 last-courses">
+                <div class="section-title mb-4">
+                    <h1 class="green-line"></h1>
+                    <a href="#">
+                       
+                        <i class="zmdi zmdi-arrow-left"></i>
+                    </a>
+                </div>
+                <div class="row mb-3">
+                    @foreach (var item in Model.HomePageData.LatestCourses)
+                    {
+                        <div class="col-12 col-lg-3 col-xl-3 col-md-6 col-sm-6 mb-3">
+                            <partial name="Shared/Courses/_CourseCard" model="item" />
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light pt-5 pb-5">
+        <div class="row">
+            <div class="col-12 mb-5 ">
+                <div class="section-title mb-4">
+                    <h1 class="green-line">course </h1>
+                    <a href="#">
+                        course 
+                        <i class="zmdi zmdi-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item p-2">
+                    <div class="main-card  custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/course.jpg" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                                
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/1.png" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                               
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/2.png" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                                
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/3.jpg" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                               
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/4.jpg" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                                
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/5.jpg" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                               
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/1.png" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                              
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card card-body" style="border-radius: 0;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title mb-4">
+                        <h1 class="green-line"></h1>
+                        <a href="#">
+                            
+                            <i class="zmdi zmdi-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row mb-4">
+                        @*TODO Moshkel Delay Ghaleb Az Card Maghale Ast :) *@
+                        @foreach (var item in Model.HomePageData.LatestArticles)
+                        {
+
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 article mb-4">
+                                <partial name="Shared/Blog/_BlogPostCard" model="item" />
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="help-you">
+   
+      
+    </div>
+    <div class="podcast pt-4 pb-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mb-4 ">
+                    <div class="section-title mb-4">
+                        <i class="fa fa-microphone"></i>
+                        <h1 class="podcast-header">name /h1>
+                        <a href="#">
+                    
+                            <i class="zmdi zmdi-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col-xl-3 col-md-6 col-sm-6 mb-3">
+                            <div class="podcast-item shadow">
+                                <div class="image-layer">
+                                    <img src="images/course.jpg" alt="">
+                                    <div class="text-center image-cover">
+                                        <a href="#" class="golobal-link"></a>">
+                                            <i class="zmdi zmdi-mic-setting"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="podcast-body ">
+                                    <svg class="venus-waves" xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 60"
+                                         preserveAspectRatio="none" shape-rendering="auto">
+                                        <defs>
+                                            <path id="gentle-wave"
+                                                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                                            </path>
+                                        </defs>
+                                        <g class="parallax">
+                                            <use xlink:href="#gentle-wave" x="-12" y="11"
+                                                 fill="rgba(255,255,255,0.7">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="25" y="13"
+                                                 fill="rgba(255,255,255,0.5)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="100" y="5"
+                                                 fill="rgba(255,255,255,0.3)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="90" y="7" fill="#fff"></use>
+                                        </g>
+                                    </svg>
+                                    <h5 class="pr-2 pl-2">
+                                       
+                                    </h5>
+                                </div>
+                                <div class="description p-2">
+                                    <p>
+                                    </p>
+                                </div>
+                                <div class="info pr-3 pl-3">
+                                    <div class="time">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>10:05</span>
+                                        <label>دقیقه</label>
+                                    </div>
+                                    <div class="recorder">
+                                        <i class="fa fa-user"></i>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 col-xl-3 col-md-6 col-sm-6 mb-3">
+                            <div class="podcast-item shadow">
+                                <div class="image-layer">
+                                    <img src="images/course.jpg" alt="">
+                                    <div class="text-center image-cover">
+                                        <a href="#" class="golobal-link"></a>
+                                        <a href="#" class="icon-link" title="">
+                                            <i class="zmdi zmdi-mic-setting"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="podcast-body ">
+                                    <svg class="venus-waves" xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 60"
+                                         preserveAspectRatio="none" shape-rendering="auto">
+                                        <defs>
+                                            <path id="gentle-wave"
+                                                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                                            </path>
+                                        </defs>
+                                        <g class="parallax">
+                                            <use xlink:href="#gentle-wave" x="-12" y="11"
+                                                 fill="rgba(255,255,255,0.7">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="25" y="13"
+                                                 fill="rgba(255,255,255,0.5)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="100" y="5"
+                                                 fill="rgba(255,255,255,0.3)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="90" y="7" fill="#fff"></use>
+                                        </g>
+                                    </svg>
+                                    <h5 class="pr-2 pl-2">
+                                        <a href="#">
+                                           
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div class="description p-2">
+                                    <p>
+                                    </p>
+                                </div>
+                                <div class="info pr-3 pl-3">
+                                    <div class="time">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>10:05</span>
+                                        <label></label>
+                                    </div>
+                                    <div class="recorder">
+                                        <i class="fa fa-user"></i>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-3 col-xl-3 col-md-6 col-sm-6 mb-3">
+                            <div class="podcast-item shadow">
+                                <div class="image-layer">
+                                    <img src="images/course.jpg" alt="">
+                                    <div class="text-center image-cover">
+                                        <a href="#" class="golobal-link"></a>
+                                        <a href="#" class="icon-link" title="listen">
+                                            <i class="zmdi zmdi-mic-setting"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="podcast-body ">
+                                    <svg class="venus-waves" xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 60"
+                                         preserveAspectRatio="none" shape-rendering="auto">
+                                        <defs>
+                                            <path id="gentle-wave"
+                                                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                                            </path>
+                                        </defs>
+                                        <g class="parallax">
+                                            <use xlink:href="#gentle-wave" x="-12" y="11"
+                                                 fill="rgba(255,255,255,0.7">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="25" y="13"
+                                                 fill="rgba(255,255,255,0.5)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="100" y="5"
+                                                 fill="rgba(255,255,255,0.3)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="90" y="7" fill="#fff"></use>
+                                        </g>
+                                    </svg>
+                                    <h5 class="pr-2 pl-2">
+                                        <a href="#">
+                                         
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div class="description p-2">
+                                    <p>
+                                    
+                                    </p>
+                                </div>
+                                <div class="info pr-3 pl-3">
+                                    <div class="time">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>10:05</span>
+                                        <label></label>
+                                    </div>
+                                    <div class="recorder">
+                                        <i class="fa fa-user"></i>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-3 col-xl-3 col-md-6 col-sm-6 mb-3">
+                            <div class="podcast-item shadow">
+                                <div class="image-layer">
+                                    <img src="images/course.jpg" alt="">
+                                    <div class="text-center image-cover">
+                                        <a href="#" class="golobal-link"></a>
+                                        <a href="#" class="icon-link" title="listen">
+                                            <i class="zmdi zmdi-mic-setting"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="podcast-body ">
+                                    <svg class="venus-waves" xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 60"
+                                         preserveAspectRatio="none" shape-rendering="auto">
+                                        <defs>
+                                            <path id="gentle-wave"
+                                                  d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                                            </path>
+                                        </defs>
+                                        <g class="parallax">
+                                            <use xlink:href="#gentle-wave" x="-12" y="11"
+                                                 fill="rgba(255,255,255,0.7">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="25" y="13"
+                                                 fill="rgba(255,255,255,0.5)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="100" y="5"
+                                                 fill="rgba(255,255,255,0.3)">
+                                            </use>
+                                            <use xlink:href="#gentle-wave" x="90" y="7" fill="#fff"></use>
+                                        </g>
+                                    </svg>
+                                    <h5 class="pr-2 pl-2">
+                                      
+                                    </h5>
+                                </div>
+                                <div class="description p-2">
+                                    <p>
+                                    </p>
+                                </div>
+                                <div class="info pr-3 pl-3">
+                                    <div class="time">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>10:05</span>
+                                        <label>دقیقه</label>
+                                    </div>
+                                    <div class="recorder">
+                                        <i class="fa fa-user"></i>
+                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row">
+            <div class="col-12 mb-5 ">
+                <div class="section-title mb-4">
+                    <h1 class="green-line"> course </h1>
+                    <a href="#">
+                         all
+                        <i class="zmdi zmdi-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item p-2">
+                    <div class="main-card  custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/course.jpg" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                              
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/1.png" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                             
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item p-2">
+                    <div class="main-card custom-shadow">
+                        <div class="image-layer">
+                            <div class="image-cover">
+                                <a href="#">
+                                    <i class="fa fa-play-circle" data-toggle="tooltip" data-placement="top"
+                                       title="show course"></i>
+                                </a>
+                            </div>
+                            <img src="images/Course/2.png" alt="">
+                        </div>
+                        <h3>
+                            <a href="#">
+                              
+                            </a>
+                        </h3>
+                        <div class="info">
+                            <div class="teacher">
+                                <i class="zmdi zmdi-account-circle"></i>
+                                <span></span>
+                            </div>
+                            <div class="visit">
+                                <i class="zmdi zmdi-eye"></i>
+                                <span>2,000</span>
+                            </div>
+                            <div class="comment">
+                                <i class="zmdi zmdi-comment"></i>
+                                <span>2,000</span>
+                            </div>
+                        </div>
+                        <div class="footer-card">
+                            <div class="time pr-2 p-2">
+                                <i class="zmdi zmdi-time-countdown"></i>
+                                10:05:06
+                            </div>
+                            <div class="price text-left pl-2  p-2">
+                                <i class=""></i>
+                                55,000 <span>$</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+@section Scripts
+    {
+    <script>
+        $(document).ready(function () {
+            particlesJS.load('particles-js', '/js/particlesjs-config.json');
+
+            $(".owl-carousel").owlCarousel();
+        });
+        $('.owl-carousel').owlCarousel({
+            rtl: true,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: false
+                },
+                550: {
+                    items: 2
+                },
+                762: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    </script>
+}

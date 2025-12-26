@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "/mz1PchsnvQ=",
+  "success": true,
+  "projectFilePath": "D:\\btc\\DigiLearn-master\\tony\\src\\Common\\Common.Application\\Common.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\salmank\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\anglesharp.css\\0.16.4\\anglesharp.css.0.16.4.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\htmlsanitizer\\8.0.601\\htmlsanitizer.8.0.601.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\salmank\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'HtmlSanitizer' 8.0.601 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-43cp-6p3q-2pc4",
+      "projectPath": "D:\\btc\\DigiLearn-master\\tony\\src\\Common\\Common.Application\\Common.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\btc\\DigiLearn-master\\tony\\src\\Common\\Common.Application\\Common.Application.csproj",
+      "libraryId": "HtmlSanitizer",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

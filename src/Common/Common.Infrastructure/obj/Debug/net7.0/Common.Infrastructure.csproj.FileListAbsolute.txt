@@ -1,0 +1,17 @@
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Infrastructure.deps.json
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Infrastructure.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Infrastructure.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Application.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Application.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\bin\Debug\net7.0\Common.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.csproj.AssemblyReference.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.AssemblyInfoInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.AssemblyInfo.cs
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.csproj.CoreCompileInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.I.562AF620.Up2Date
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\refint\Common.Infrastructure.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\Common.Infrastructure.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Infrastructure\obj\Debug\net7.0\ref\Common.Infrastructure.dll

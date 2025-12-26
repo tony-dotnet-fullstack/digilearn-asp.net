@@ -1,0 +1,15 @@
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\bin\Debug\net7.0\CoreModule.Domain.deps.json
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\bin\Debug\net7.0\CoreModule.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\bin\Debug\net7.0\CoreModule.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\bin\Debug\net7.0\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\bin\Debug\net7.0\Common.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.csproj.AssemblyReference.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.AssemblyInfoInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.AssemblyInfo.cs
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.csproj.CoreCompileInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModu.E24AAF0E.Up2Date
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\refint\CoreModule.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\CoreModule.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Modules\Core\CoreModule.Domain\obj\Debug\net7.0\ref\CoreModule.Domain.dll

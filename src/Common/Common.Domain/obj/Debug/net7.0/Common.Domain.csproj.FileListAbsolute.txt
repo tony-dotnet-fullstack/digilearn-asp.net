@@ -1,0 +1,12 @@
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\bin\Debug\net7.0\Common.Domain.deps.json
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\bin\Debug\net7.0\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\bin\Debug\net7.0\Common.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.csproj.AssemblyReference.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.AssemblyInfoInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.AssemblyInfo.cs
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.csproj.CoreCompileInputs.cache
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\refint\Common.Domain.dll
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\Common.Domain.pdb
+D:\btc\DigiLearn-master\DigiLearn-master\src\Common\Common.Domain\obj\Debug\net7.0\ref\Common.Domain.dll

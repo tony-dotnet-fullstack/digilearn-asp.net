@@ -1,0 +1,28 @@
+﻿@page "{courseId}"
+@model Tony.Web.Pages.Profile.Teacher.Courses.Sections.AddModel
+@{
+    ViewData["title"] = "add";
+    Layout = "Shared/_ProfileLayout";
+}
+<div class="row ">
+    <div class="col-12 info shadow pl-0 pr-0">
+        <p class="title">
+            <i class="fa fa-address-card-o"></i>
+            @ViewData["title"]
+        </p>
+        <div class="info-body p-2">
+            <form method="post" class="row">
+                <div class="col-12 col-lg-6 col-md-6 mb-3">
+                    @Html.EditorFor(f=>f.Title)
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 mb-3">
+                    @Html.EditorFor(f=>f.DisplayOrder)
+
+                </div>
+                <div class="col-12">
+                    <button class="btn  btn-save  mt-3">register information</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
